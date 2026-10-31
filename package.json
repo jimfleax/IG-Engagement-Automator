@@ -1,0 +1,48 @@
+{
+  "name": "ig-engagement-automator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart, humanized Instagram post engagement automator built with React, Motion, and self-healing DOM discovery diagnostics.",
+  "main": "background.js",
+  "scripts": {
+    "build": "node --experimental-strip-types build.ts",
+    "test": "node --experimental-strip-types --test test/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "instagram",
+    "automation",
+    "chrome-extension",
+    "react",
+    "motion",
+    "shadcn"
+  ],
+  "author": "Reetabrata Bhandari <reetabrata.bhandari@gmail.com> (https://jimfleax.in)",
+  "license": "ISC",
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "dexie": "^4.4.7",
+    "framer-motion": "^12.43.0",
+    "papaparse": "^5.7.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^26.6.6",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.2",
+    "chrome-types": "^0.1.461",
+    "esbuild": "^0.28.2",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

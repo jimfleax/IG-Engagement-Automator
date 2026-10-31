@@ -1,0 +1,12 @@
+/// <reference types="vite/client" />
+/// <reference types="chrome-types" />
+
+declare module "*.css" {
+  const content: string;
+  export default content;
+}
+
+declare module "*.css?inline" {
+  const content: string;
+  export default content;
+}

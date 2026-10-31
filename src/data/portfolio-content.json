@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "1.0",
+  "metadata": {
+    "title": "Reetabrata Bhandari",
+    "description": "Explore the web apps and projects created by Reetabrata Bhandari, a self-taught programmer.",
+    "keywords": "Jim Fleax, Reetabrata Bhandari, web apps, programming projects, software development, portfolio, open source",
+    "authorName": "Reetabrata Bhandari",
+    "siteUrl": "https://jimfleax.in",
+    "twitterHandle": "@ReetabrataB",
+    "socialLinks": [
+      "https://github.com/jimfleax",
+      "https://www.linkedin.com/in/jimfleax",
+      "https://x.com/jimfleax"
+    ]
+  },
+  "home": {
+    "hero": {
+      "hoverRevealTextDesktop": "Not my official name, but used in all my social handles. (Hover to reveal!)",
+      "hoverRevealTextMobile": "Not my official name, but used in all my social handles. (Tap to reveal!)",
+      "iamText": "I am a"
+    },
+    "terminal": {
+      "query": "> Who is Jim Fleax??",
+      "steps": [
+        {
+          "type": "thinking",
+          "text": "[Thinking] Understanding query..."
+        },
+        {
+          "type": "search",
+          "text": "[Search] Searching the web for \"Jim Fleax\"..."
+        },
+        {
+          "type": "success",
+          "text": "[Success] Found 1,204 results."
+        }
+      ],
+      "techHeading": "Core Technologies identified:",
+      "technologies": [
+        "React / Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js / Express.js",
+        "MongoDB",
+        "Python / Docker"
+      ],
+      "summary": "Jim Fleax is a highly skilled full-stack developer specializing in building sleek, high-performance web applications with modern technologies like React, Next.js, Python, and MongoDB. Known for his pixel-perfect frontend aesthetics and robust backend architecture, he is passionate about creating seamless digital experiences."
+    },
+    "about": {
+      "paragraph": "Hi there! I'm Reetabrata Bhandari—better known as Jim Fleax! 👋 I’m passionate about exploring computer languages and crafting innovative apps and websites. My goal is to create sleek, delicious interfaces that seamlessly blend with powerful logic and robust backends, resulting in responsive apps designed to make life simpler and more enjoyable. 👨💻✨\n\nBeyond coding, I find joy in losing myself in fiction 📚️, vibing along my playlist 🎵, and watching good movies 🎬️. I thrive on learning, embracing every opportunity to dive deeper into the fascinating world of computer science. 🚀\n\nHere, you’ll find a showcase of the apps I’ve built along my web development journey. Got feedback or spotted a bug? Don’t hesitate to share—I’m always eager to improve and grow!\n\nThanks for stopping by! ❤️"
+    },
+    "textLoop": {
+      "text": "HTML5 ✦ CSS3 ✦ JavaScript ✦ TypeScript ✦ React ✦ Next.js ✦ Node.js ✦ Express.js ✦ Python ✦ Tailwind CSS ✦ Framer Motion ✦ MongoDB ✦ Docker ✦ Nginx ✦ Vercel ✦ Render ✦ Git ✦ GitHub ✦ Linux ✦ Ubuntu ✦ Fedora ✦ Antigravity ✦ Claude Code"
+    },
+    "stack": {
+      "cards": [
+        {
+          "id": "designs",
+          "title": "Designs",
+          "description": "Crafting beautiful, sleek, and intuitive interfaces utilizing the latest modern component libraries."
+        },
+        {
+          "id": "mobile",
+          "title": "Mobile Friendly",
+          "description": "Fluid and responsive layouts engineered to provide flawless user experiences across all screen sizes and devices."
+        },
+        {
+          "id": "animations",
+          "title": "Animations",
+          "description": "Bringing interfaces to life with smooth, optimized, and hardware-accelerated animations."
+        },
+        {
+          "id": "auth",
+          "title": "Authentication",
+          "description": "Implementing robust, enterprise-grade security flows using OAuth, JWT, Argon2, and modern cryptographic standards."
+        },
+        {
+          "id": "apis",
+          "title": "Fast APIs",
+          "description": "Architecting high-performance, strictly rate-limited APIs powered by highly optimized backend logic."
+        },
+        {
+          "id": "dry",
+          "title": "DRY Principles",
+          "description": "Engineering maintainable systems using modern web practices, optimization strategies, and strict DRY principles."
+        },
+        {
+          "id": "testing",
+          "title": "Testing",
+          "description": "Ensuring rock-solid stability through rigorous automated testing suites utilizing Jest and Supertest."
+        },
+        {
+          "id": "versioning",
+          "title": "Versioning",
+          "description": "Maintaining flawless project history and collaborative workflows utilizing Git and GitHub best practices."
+        }
+      ]
+    },
+    "skills": {
+      "heading": "My Skills",
+      "fullstack": {
+        "title": "Fullstack Web Development",
+        "description": "I am highly proficient in the MERN stack (MongoDB, Express, React, Node.js), complemented by Next.js for SSR. I architect clean, scalable, and responsive web applications from the database layer to the user interface.",
+        "items": [
+          {
+            "name": "React / Next.js",
+            "percent": 85
+          },
+          {
+            "name": "Node.js / Express",
+            "percent": 75
+          },
+          {
+            "name": "MongoDB",
+            "percent": 70
+          },
+          {
+            "name": "Tailwind CSS",
+            "percent": 90
+          }
+        ]
+      },
+      "python": {
+        "title": "Problem Solving with Python",
+        "description": "Beyond web development, I am deeply passionate about Python. I leverage it for data processing, scripting, and solving complex algorithmic challenges efficiently."
+      },
+      "leetcode": {
+        "heading": "LeetCode Stats & Algorithmic Practice"
+      }
+    },
+    "techStack": {
+      "heading": "Building fast, scalable, and secure websites."
+    },
+    "projects": {
+      "introHeadingPart1": "Wanna explore my ",
+      "introHeadingHighlight": "Creations?",
+      "dragText": "Drag & Release",
+      "gridHeading": "Here are my creations",
+      "backButtonText": "Go Back",
+      "items": [
+        {
+          "title": "CosmicMath",
+          "url": "cosmicmath.jimfleax.in",
+          "icon": "/media/cosmicmath.png",
+          "gradient": "linear-gradient(to bottom right, #8b5cf6, #a855f7)",
+          "description": "Introducing the ultimate CosmicMath app, housing 45+ different types of sums to help you build lightning-fast calculation speed and internalize mathematical concepts.",
+          "techStack": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Flashers",
+          "url": "flashers.jimfleax.in",
+          "icon": "/media/flashers.png",
+          "gradient": "linear-gradient(to bottom right, #3b82f6, #06b6d4)",
+          "description": "A fast and efficient flashcard application for rapid learning and retention.",
+          "techStack": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Reflect",
+          "url": "reflect.jimfleax.in",
+          "icon": "/media/reflect.png",
+          "gradient": "linear-gradient(to bottom right, #10b981, #14b8a6)",
+          "description": "Reflect is a simple yet functional web application designed for users to write, store, and manage their notes and texts seamlessly.",
+          "techStack": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "Poetica",
+          "url": "poetica.jimfleax.in",
+          "icon": "/media/poetica.png",
+          "gradient": "linear-gradient(to bottom right, #f43f5e, #ec4899)",
+          "description": "Immerse in the world of Bengali poetry with Poetica.",
+          "techStack": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "title": "MetaSkills",
+          "url": "metaskills.site",
+          "icon": "/media/metaskills.png",
+          "gradient": "linear-gradient(to bottom right, #f59e0b, #f97316)",
+          "description": "A full-stack, AI-augmented learning platform built for students seeking structured subject practice. Features include spaced repetition, AI-generated explanations, and detailed performance analytics.",
+          "techStack": ["React.js", "StyledComponents", "Express.js", "MongoDB"]
+        },
+        {
+          "title": "DSA Preparation",
+          "url": "dsa.jimfleax.in",
+          "github": "https://github.com/jimfleax/dsa-preparation",
+          "icon": "/media/dsa-preparation.svg",
+          "gradient": "linear-gradient(to bottom right, #ef4444, #b91c1c)",
+          "description": "Master Data Structures and Algorithms with intelligent tracking, automatic syncing, and smart revision.",
+          "techStack": ["Next.js", "Tailwindcss", "Express.js", "MongoDB"]
+        },
+        {
+          "title": "Nexus",
+          "url": "nexus.jimfleax.in",
+          "icon": "/media/nexus.png",
+          "gradient": "linear-gradient(to bottom right, #6366f1, #4338ca)",
+          "description": "A workspace application designed to help you organize resources, ideas, and references into structured projects. Supports Markdown notes, web links, PDF documents, and images.",
+          "techStack": ["Next.js", "Tailwindcss", "Fastify", "MongoDB"]
+        },
+        {
+          "title": "EmitDocs",
+          "url": "emitdocs.jimfleax.in",
+          "github": "https://github.com/jimfleax/EmitDocs",
+          "icon": "/media/emitdocs.svg",
+          "gradient": "linear-gradient(to bottom right, #1687ff, #5147d9)",
+          "description": "A privacy-first bulk document personalization and issuance platform. Features visual PDF template mapping, spreadsheet data reconciliation, zero-cloud client-side PDF synthesis via Web Workers, and a self-service certificate claim portal.",
+          "techStack": ["React.js", "TypeScript", "Tailwindcss", "Hono", "MongoDB"]
+        }
+      ]
+    },
+    "githubStats": {
+      "headingPart1": "Explore my ",
+      "headingHighlight": "open-source",
+      "headingPart2": " world.",
+      "buttonText": "Visit my GitHub Profile",
+      "githubUrl": "https://github.com/jimfleax"
+    },
+    "journey": {
+      "heading": "Professional Journey",
+      "items": [
+        {
+          "title": "Current",
+          "role": "Freelance Web Developer",
+          "description": "As a Freelance Full-Stack Developer, I specialize in the MERN stack to build robust, user-centric applications. I handle the entire lifecycle—from dynamic React front-ends to secure Node.js back-ends—delivering clean code and custom solutions that drive real business value.",
+          "documents": []
+        },
+        {
+          "title": "July 2026 - September 2026",
+          "role": "Web Development Intern — Atior Technologies",
+          "description": "As a Web Development Intern at Atior Technologies, I engaged in real-world projects that sharpened my technical skills and fostered teamwork. I built APIs with Node.js and Express, implemented secure authentication systems, integrated backend and frontend technologies effectively, and collaborated with my team using Git. This experience allowed me to keep my skills updated to the modern industry standards, preparing me for future challenges in web development.",
+          "documents": [
+            {
+              "type": "pdf",
+              "title": "Offer Letter",
+              "url": "/documents/atior-offer.pdf"
+            },
+            {
+              "type": "pdf",
+              "title": "Paid Month Offer Letter",
+              "url": "/documents/atior-paid-offer.pdf"
+            }
+          ]
+        },
+        {
+          "title": "April 2026 - May 2026",
+          "role": "Full Stack Development Intern — Cognifyz Technologies",
+          "description": "Completed my first one-month Full Stack Development Internship at Cognifyz Technologies. During this foundational experience, I gained hands-on exposure to modern web development practices, strengthened my understanding of frontend and backend application architectures, and significantly enhanced my debugging and problem-solving skills through real-world tasks.",
+          "documents": [
+            {
+              "type": "image",
+              "title": "Certificate of Completion",
+              "url": "/documents/cognizfy-certificate.jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    "connect": {
+      "heading": "Let's connect:",
+      "links": [
+        {
+          "id": "email",
+          "label": "Email",
+          "href": "mailto:reetabrata.bhandari@gmail.com"
+        },
+        {
+          "id": "whatsapp",
+          "label": "WhatsApp",
+          "href": "https://wa.link/q4kxyg"
+        },
+        {
+          "id": "linkedin",
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/jimfleax"
+        },
+        { "id": "x", "label": "X (Twitter)", "href": "https://x.com/jimfleax" },
+        {
+          "id": "substack",
+          "label": "Substack",
+          "href": "https://jimfleax.substack.com"
+        },
+        {
+          "id": "github",
+          "label": "GitHub",
+          "href": "https://github.com/jimfleax"
+        }
+      ]
+    },
+    "thankYou": {
+      "heading": "Thank you for visiting",
+      "description": "I appreciate you taking the time to explore my world.",
+      "buttonAria": "Scroll to top"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Engagement Automator",
+  "version": "1.0.0",
+  "description": "Smart, humanized Instagram post engagement automator built with React, Motion, and self-healing DOM discovery diagnostics.",
+  "author": "Reetabrata Bhandari",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Instagram Engagement Automator"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "alarms",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://*.instagram.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.instagram.com/*"
+      ],
+      "js": [
+        "content/sniffer.js"
+      ],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://*.instagram.com/*"
+      ],
+      "js": [
+        "content/content.bundle.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "commands": {
+    "toggle-modal": {
+      "suggested_key": {
+        "default": "Alt+Shift+I",
+        "mac": "Alt+Shift+I"
+      },
+      "description": "Toggle Automation Suite In-Page Modal"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/*",
+        "content/sniffer.js"
+      ],
+      "matches": [
+        "https://*.instagram.com/*"
+      ]
+    }
+  ]
+}
